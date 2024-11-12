@@ -8,69 +8,62 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace Nhom2_QuanLySinhVien
 {
 	public partial class frm_DangNhap_Bac : Form
 	{
-		LoginController login;
+		Login login;
 		public frm_DangNhap_Bac()
 		{
 			InitializeComponent();
-			login = new LoginController();
+			login = new Login();
 		}
-		private String GenerateKey()
-		{
-			string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-			char[] alToArray = alphabet.ToCharArray();
-			Random rand = new Random();
-
-			for (int i = alphabet.Length - 1; i > 0; i--)
-			{
-				int j = rand.Next(0, i + 1);
-				char temp = alToArray[i];
-				alToArray[i] = alToArray[j];
-				alToArray[j] = temp;
-			}
-
-			string result = "";
-			for (int i = 0; i < alToArray.Length; i++)
-			{
-				if (i < 4)
-					result += alToArray[i] + " ";
-			}
-			return result;
-		}
+		
 
 		private void frm_DangNhap_Bac_Load(object sender, EventArgs e)
 		{
-
-			txt_HienThiMaBV_Bac.Text = GenerateKey();
+			lb_ThongBaoDangNhap_Bac.Text = "";	
 		}
 
-		private void btn_RandomMa_Bac_Click(object sender, EventArgs e)
-		{
-			txt_HienThiMaBV_Bac.Text = GenerateKey();
-		}
+		
 
 		private void btn_DangNhap_Bac_Click(object sender, EventArgs e)
 		{
-			
-			if (string.IsNullOrEmpty(txt_TenDangNhap_Bac.Text))
-				MessageBox.Show("Bạn chưa nhập tên đăng nhập!");
-			else if (string.IsNullOrEmpty(txt_MatKhau_Bac.Text))
-				MessageBox.Show("Bạn chưa nhập mật khẩu!");
-			else if (string.IsNullOrEmpty(txt_MaBaoVe_Bac.Text))
-				MessageBox.Show("Bạn chưa mã bảo vệ!");
+
+			if (string.IsNullOrEmpty(txt_TenDangNhap_Bac.Text.Trim()))
+			{
+				lb_ThongBaoDangNhap_Bac.Text = "Bạn chưa nhập tên đăng nhập!";
+				txt_TenDangNhap_Bac.Focus();
+			}
+			else if (string.IsNullOrEmpty(txt_MatKhau_Bac.Text.Trim()))
+			{
+				lb_ThongBaoDangNhap_Bac.Text = "Bạn chưa nhập mật khẩu!";
+				txt_MatKhau_Bac.Focus();
+			}
 			else if (login.checkLogin(txt_TenDangNhap_Bac.Text, txt_MatKhau_Bac.Text) == 0)
-				MessageBox.Show("Đăng nhập thất bại. Vui lòng kiểm tra lại thông tin");
+			{
+				lb_ThongBaoDangNhap_Bac.Text = "Tên đăng nhập và mật khẩu không đúng!";
+			}	
 			else
 			{
-
-				MessageBox.Show("Đăng nhập thành công");
-				frm_TrangChu_Bac f = new frm_TrangChu_Bac();
-				f.ShowDialog();
+				MessageBox.Show("Đăng nhập thành công.", "Đăng nhập hệ thống", MessageBoxButtons.OK, MessageBoxIcon.Information);
+				////frm_TrangChu_Bac f = new frm_TrangChu_Bac();
+				//this.Hide();
+				//f.ShowDialog();
 			}
+		}
+
+		private void chb_ShowPassword_Bac_CheckedChanged(object sender, EventArgs e)
+		{
+			if (chb_ShowPassword_Bac.Checked)
+				txt_MatKhau_Bac.UseSystemPasswordChar = false;
+			else 
+				txt_MatKhau_Bac.UseSystemPasswordChar = true;
+		}
+
+		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+		{
+			MessageBox.Show("Liên hệ Admin để cấp lại mật khẩu!", "Quên mật khẩu", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
 	}
 }

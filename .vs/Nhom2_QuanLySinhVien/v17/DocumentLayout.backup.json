@@ -1,38 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\",
+  "WorkspaceRootPath": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_trangchu_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:frm_trangchu_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\quanlymonhoc\\frm_quanlymonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlymonhoc\\frm_quanlymonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_trangchu_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:frm_trangchu_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\quanlymonhoc\\frm_quanlymonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlymonhoc\\frm_quanlymonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_dangnhap_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\model\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:model\\monhoc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\nhom2_quanlysinhvien\\quanlymonhoc\\frm_themmoimonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlymonhoc\\frm_themmoimonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\quanlydiem\\frm_tinhdiemtbhk_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlydiem\\frm_tinhdiemtbhk_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\frm_dangnhap_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:frm_dangnhap_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_dangnhap_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\quanlydiem\\frm_tinhdiemtbhk_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlydiem\\frm_tinhdiemtbhk_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\frm_dangnhap_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:frm_dangnhap_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\co_tranminhduc\\baitaplon\\nhom2_qlsv\\nhom2_quanlysinhvien\\quanlymonhoc\\urc_themmonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlymonhoc\\urc_themmonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\nhom2_quanlysinhvien\\model\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:model\\diem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\co_tranminhduc\\baitaplon\\nhom2_qlsv\\nhom2_quanlysinhvien\\controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:controller\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\nhom2_quanlysinhvien\\quanlydiem\\frm_tinhdiemtbhk_bac.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlydiem\\frm_tinhdiemtbhk_bac.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\model\\ketnoimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:model\\ketnoimodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\nhom2_quanlysinhvien\\quanlymonhoc\\frm_suamonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlymonhoc\\frm_suamonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\nhom2_quanlysinhvien\\quanlymonhoc\\frm_themmoimonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlymonhoc\\frm_themmoimonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|e:\\nam_4\\dotnet_prog_practice\\nhom2_quanlysinhvien\\quanlymonhoc\\frm_suamonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlymonhoc\\frm_suamonhoc_bac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\quanlydiem\\frm_quanlydiemmonhoc_huyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlydiem\\frm_quanlydiemmonhoc_huyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\model\\bangdiemsinhvien.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:model\\bangdiemsinhvien.rdlc||{46F6D2A1-5E86-4080-A799-01F3D0E23796}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\quanlydiem\\frm_quanlydiemmonhoc_huyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C2EF679F-DA83-4992-8337-1483784C1D48}|Nhom2_QuanLySinhVien.csproj|solutionrelative:quanlydiem\\frm_quanlydiemmonhoc_huyen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -57,107 +93,219 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frm_ThemMoiMonHoc_Bac.cs [Design]",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs [Design]",
+              "RelativeToolTip": "QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:58:23.444Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "urc_ThemMonHoc_Bac.cs [Design]",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\QuanLyMonHoc\\urc_ThemMonHoc_Bac.cs",
-              "RelativeDocumentMoniker": "QuanLyMonHoc\\urc_ThemMonHoc_Bac.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\QuanLyMonHoc\\urc_ThemMonHoc_Bac.cs [Design]",
-              "RelativeToolTip": "QuanLyMonHoc\\urc_ThemMonHoc_Bac.cs [Design]",
+              "Title": "frm_TinhDiemTBHK_Bac.cs [Design]",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs [Design]",
+              "RelativeToolTip": "QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T09:28:07.792Z",
+              "WhenOpened": "2024-11-11T12:31:17.54Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\Controller\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controller\\LoginController.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\Controller\\LoginController.cs",
-              "RelativeToolTip": "Controller\\LoginController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAWwB4AAABdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:11:45.175Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "frm_DangNhap_Bac.cs [Design]",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_DangNhap_Bac.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\frm_DangNhap_Bac.cs",
               "RelativeDocumentMoniker": "frm_DangNhap_Bac.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_DangNhap_Bac.cs [Design]",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\frm_DangNhap_Bac.cs [Design]",
               "RelativeToolTip": "frm_DangNhap_Bac.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:09:44.696Z",
+              "WhenOpened": "2024-11-11T16:16:14.439Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frm_TrangChu_Bac.cs",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_TrangChu_Bac.cs",
-              "RelativeDocumentMoniker": "frm_TrangChu_Bac.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_TrangChu_Bac.cs*",
-              "RelativeToolTip": "frm_TrangChu_Bac.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAlwCAAAAAEAAAAAAAAAA==",
+              "Title": "frm_QuanLyMonHoc_Bac.cs [Design]",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs [Design]*",
+              "RelativeToolTip": "QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T02:24:30.105Z",
+              "WhenOpened": "2024-11-11T16:13:01.521Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_QuanLyMonHoc_Bac.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs*",
+              "RelativeToolTip": "QuanLyMonHoc\\frm_QuanLyMonHoc_Bac.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T16:13:03.869Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MonHoc.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Model\\MonHoc.cs",
+              "RelativeDocumentMoniker": "Model\\MonHoc.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Model\\MonHoc.cs",
+              "RelativeToolTip": "Model\\MonHoc.cs",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAWwPgAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:22:54.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frm_DangNhap_Bac.cs",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_DangNhap_Bac.cs",
-              "RelativeDocumentMoniker": "frm_DangNhap_Bac.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_DangNhap_Bac.cs",
-              "RelativeToolTip": "frm_DangNhap_Bac.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAwDkAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:15:17.211Z",
+              "WhenOpened": "2024-11-11T09:52:23.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "KetnoiModel.cs",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\Model\\KetnoiModel.cs",
-              "RelativeDocumentMoniker": "Model\\KetnoiModel.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\Model\\KetnoiModel.cs",
-              "RelativeToolTip": "Model\\KetnoiModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAXAAAAAAAAAA==",
+              "Title": "frm_DangNhap_Bac.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\frm_DangNhap_Bac.cs",
+              "RelativeDocumentMoniker": "frm_DangNhap_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\frm_DangNhap_Bac.cs",
+              "RelativeToolTip": "frm_DangNhap_Bac.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAswDQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:10:37.625Z"
+              "WhenOpened": "2024-11-11T16:16:25.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frm_TrangChu_Bac.cs [Design]",
-              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_TrangChu_Bac.cs",
-              "RelativeDocumentMoniker": "frm_TrangChu_Bac.cs",
-              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Co_TranMinhDuc\\BaiTapLon\\Nhom2_QLSV\\Nhom2_QUANLYSINHVIEN\\frm_TrangChu_Bac.cs [Design]*",
-              "RelativeToolTip": "frm_TrangChu_Bac.cs [Design]*",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T01:09:52.017Z",
+              "WhenOpened": "2024-11-11T09:45:58.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frm_TinhDiemTBHK_Bac.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs",
+              "RelativeToolTip": "QuanLyDiem\\frm_TinhDiemTBHK_Bac.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAD4vzgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T15:15:00.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frm_TinhDiemTBHK_Bac.Designer.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_TinhDiemTBHK_Bac.Designer.cs",
+              "RelativeDocumentMoniker": "QuanLyDiem\\frm_TinhDiemTBHK_Bac.Designer.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_TinhDiemTBHK_Bac.Designer.cs",
+              "RelativeToolTip": "QuanLyDiem\\frm_TinhDiemTBHK_Bac.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAWwB4BAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:10:40.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Diem.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Model\\Diem.cs",
+              "RelativeDocumentMoniker": "Model\\Diem.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Model\\Diem.cs",
+              "RelativeToolTip": "Model\\Diem.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAYwMcAAAD8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:47:39.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frm_SuaMonHoc_Bac.cs [Design]",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs [Design]",
+              "RelativeToolTip": "QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:58:33.888Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frm_ThemMoiMonHoc_Bac.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs",
+              "RelativeToolTip": "QuanLyMonHoc\\frm_ThemMoiMonHoc_Bac.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:58:27.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frm_SuaMonHoc_Bac.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs",
+              "RelativeDocumentMoniker": "QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs",
+              "RelativeToolTip": "QuanLyMonHoc\\frm_SuaMonHoc_Bac.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:58:36.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frm_QuanLyDiemMonHoc_Huyen.cs",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs",
+              "RelativeDocumentMoniker": "QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs",
+              "RelativeToolTip": "QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:43:49.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BangDiemSinhVien.rdlc [Design]",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Model\\BangDiemSinhVien.rdlc",
+              "RelativeDocumentMoniker": "Model\\BangDiemSinhVien.rdlc",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\Model\\BangDiemSinhVien.rdlc [Design]",
+              "RelativeToolTip": "Model\\BangDiemSinhVien.rdlc [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001755|",
+              "WhenOpened": "2024-11-11T10:30:13.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frm_QuanLyDiemMonHoc_Huyen.cs [Design]",
+              "DocumentMoniker": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs",
+              "RelativeDocumentMoniker": "QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs",
+              "ToolTip": "E:\\nam_4\\DotNet_Prog_Practice\\Nhom2_QuanLySinhVien\\QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs [Design]",
+              "RelativeToolTip": "QuanLyDiem\\frm_QuanLyDiemMonHoc_Huyen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T09:26:37.24Z"
             }
           ]
         }

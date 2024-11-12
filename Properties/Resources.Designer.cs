@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp1.Properties
+namespace Nhom2_QuanLySinhVien.Properties
 {
 
 

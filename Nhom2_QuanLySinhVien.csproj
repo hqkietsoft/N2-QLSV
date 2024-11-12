@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C2EF679F-DA83-4992-8337-1483784C1D48}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>QuanLySinhVien_Nhom2</RootNamespace>
+    <AssemblyName>QuanLySinhVien_Nhom2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,12 +33,28 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
-      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Management" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
@@ -52,11 +68,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frm_TrangChu_Bac.cs">
+    <Compile Include="BCTK\BaoCaoThongKe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_TrangChu_Bac.Designer.cs">
-      <DependentUpon>frm_TrangChu_Bac.cs</DependentUpon>
+    <Compile Include="BCTK\BaoCaoThongKe.Designer.cs">
+      <DependentUpon>BaoCaoThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Diem.cs" />
+    <Compile Include="QuanLyDiem\frm_QuanLyDiemMonHoc_Huyen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyDiem\frm_QuanLyDiemMonHoc_Huyen.Designer.cs">
+      <DependentUpon>frm_QuanLyDiemMonHoc_Huyen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyDiem\frm_TinhDiemTBHK_Bac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyDiem\frm_TinhDiemTBHK_Bac.Designer.cs">
+      <DependentUpon>frm_TinhDiemTBHK_Bac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung\frm_DoiMatKhau_Bac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung\frm_DoiMatKhau_Bac.Designer.cs">
+      <DependentUpon>frm_DoiMatKhau_Bac.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_DangNhap_Bac.cs">
       <SubType>Form</SubType>
@@ -65,23 +100,65 @@
       <DependentUpon>frm_DangNhap_Bac.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\KetnoiModel.cs" />
-    <Compile Include="Controller\LoginController.cs" />
+    <Compile Include="QuanLyMonHoc\frm_TimKiemMonHoc_Bac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyMonHoc\frm_TimKiemMonHoc_Bac.Designer.cs">
+      <DependentUpon>frm_TimKiemMonHoc_Bac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung\frm_PhanQuyenNguoiDung_Bac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung\frm_PhanQuyenNguoiDung_Bac.Designer.cs">
+      <DependentUpon>frm_PhanQuyenNguoiDung_Bac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Login.cs" />
+    <Compile Include="Model\MonHoc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuanLyMonHoc\urc_ThemMonHoc_Bac.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="QuanLyMonHoc\frm_SuaMonHoc_Bac.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QuanLyMonHoc\urc_ThemMonHoc_Bac.Designer.cs">
-      <DependentUpon>urc_ThemMonHoc_Bac.cs</DependentUpon>
+    <Compile Include="QuanLyMonHoc\frm_SuaMonHoc_Bac.Designer.cs">
+      <DependentUpon>frm_SuaMonHoc_Bac.cs</DependentUpon>
     </Compile>
-    <Compile Include="Testing.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="QuanLyMonHoc\frm_ThemMoiMonHoc_Bac.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Testing.Designer.cs">
-      <DependentUpon>Testing.cs</DependentUpon>
+    <Compile Include="QuanLyMonHoc\frm_ThemMoiMonHoc_Bac.Designer.cs">
+      <DependentUpon>frm_ThemMoiMonHoc_Bac.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frm_TrangChu_Bac.resx">
-      <DependentUpon>frm_TrangChu_Bac.cs</DependentUpon>
+    <Compile Include="QuanLyMonHoc\frm_QuanLyMonHoc_Bac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyMonHoc\frm_QuanLyMonHoc_Bac.Designer.cs">
+      <DependentUpon>frm_QuanLyMonHoc_Bac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyMonHoc\frm_XoaMonHoc_Bac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyMonHoc\frm_XoaMonHoc_Bac.Designer.cs">
+      <DependentUpon>frm_XoaMonHoc_Bac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung\frm_ThongTinNguoiDung_Bac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLyNguoiDung\frm_ThongTinNguoiDung_Bac.Designer.cs">
+      <DependentUpon>frm_ThongTinNguoiDung_Bac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="BCTK\BaoCaoThongKe.resx">
+      <DependentUpon>BaoCaoThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Model\BangDiemSinhVien.rdlc" />
+    <EmbeddedResource Include="QuanLyDiem\frm_QuanLyDiemMonHoc_Huyen.resx">
+      <DependentUpon>frm_QuanLyDiemMonHoc_Huyen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyDiem\frm_TinhDiemTBHK_Bac.resx">
+      <DependentUpon>frm_TinhDiemTBHK_Bac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNguoiDung\frm_DoiMatKhau_Bac.resx">
+      <DependentUpon>frm_DoiMatKhau_Bac.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_DangNhap_Bac.resx">
       <DependentUpon>frm_DangNhap_Bac.cs</DependentUpon>
@@ -95,8 +172,23 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="QuanLyMonHoc\urc_ThemMonHoc_Bac.resx">
-      <DependentUpon>urc_ThemMonHoc_Bac.cs</DependentUpon>
+    <EmbeddedResource Include="QuanLyMonHoc\frm_SuaMonHoc_Bac.resx">
+      <DependentUpon>frm_SuaMonHoc_Bac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyMonHoc\frm_ThemMoiMonHoc_Bac.resx">
+      <DependentUpon>frm_ThemMoiMonHoc_Bac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyMonHoc\frm_QuanLyMonHoc_Bac.resx">
+      <DependentUpon>frm_QuanLyMonHoc_Bac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyMonHoc\frm_XoaMonHoc_Bac.resx">
+      <DependentUpon>frm_XoaMonHoc_Bac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNguoiDung\frm_PhanQuyenNguoiDung_Bac.resx">
+      <DependentUpon>frm_PhanQuyenNguoiDung_Bac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuanLyNguoiDung\frm_ThongTinNguoiDung_Bac.resx">
+      <DependentUpon>frm_ThongTinNguoiDung_Bac.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -113,11 +205,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="QuanLyDiem\" />
-    <Folder Include="QuanLyHoSoSinhVien\" />
-    <Folder Include="QuanLyLopHocPhan\" />
-    <Folder Include="QuanLyLopHoc\" />
-    <Folder Include="ThongKeBaoCao\" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
