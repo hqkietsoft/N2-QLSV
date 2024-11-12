@@ -13,7 +13,7 @@ namespace Nhom2_QuanLySinhVien.Model
 	{
 		SqlConnection conDB;
 		
-		public SqlConnection openConnect()
+		public SqlConnection openConnection()
 		{
 			string connectString = @"Data Source=DESKTOP-TEOF11\SQLEXPRESS;Initial Catalog=QUANLYSINHVIEN;Integrated Security=True";
 			try
@@ -32,10 +32,10 @@ namespace Nhom2_QuanLySinhVien.Model
 			}
 			return conDB;
 		}
-		public void closeConnect()
+		public void closeConnection()
 		{
-			conDB.Close();
 			conDB.Dispose();
+			conDB.Close();
 		}
 		
 	}
